@@ -184,6 +184,7 @@ void printBoard(const vector<vector<int>>& board, bool f) {
 		}
 		catch (string& str) {
 			cout << "Exception:" << str << endl;
+			return;
 		}
 	}
 	for (const auto& row : board) {
@@ -358,19 +359,20 @@ int main(int argc, char* argv[]) {
 				if (!have_n)throw string("-u参数需与-n参数同时使用！请检查！\n");
 				flag = true;
 			}
-			else if (strcmp(argv[i], "\help") == 0) {
-				printf("参数名\t参数含义\t范围限制\t说明\n");
+			else if (strcmp(argv[i], "\\help") == 0) {
+				printf("参数名\t参数含义\t\t范围限制\t说明\n");
 				printf("-c\t需要生成的数独终盘数量\t1-1000000\t\n");
 				printf("-n\t需要生成的数独游戏数量\t1-10000\t\n");
-				printf("-u\t生成的游戏解唯一\t\t\n");
+				printf("-u\t生成的游戏解唯一\t无\t\n");
 				printf("-s\t数独游戏棋盘路径\t绝对或相对路径\t解答保存在sudoku.txt文件中\n");
-				printf("-m\t生成的游戏难度\t1-3\t需指定-n参数，否则会报错\n");
-				printf("-r\t生成的游戏中挖空的数量\t20-55\t需指定-n参数，否则会报错【sudoku.exe -n 20 -r 20~55】\n");
+				printf("-m\t生成的游戏难度\t\t1-3\t\t需指定-n参数，否则会报错【sudoku.exe -n 20 -m 1】\n");
+				printf("-r\t生成的游戏中挖空的数量\t20-55\t\t需指定-n参数，否则会报错【sudoku.exe -n 20 -r 20~55】\n");
 			}
 		}
 	}
 	catch (string str) {
 		std::cout << "Exception:" << str << endl;
+		cout << "如需帮助，请输入【sudoku.exe \\help】查看！" << endl;
 		return -1;
 	};
 
