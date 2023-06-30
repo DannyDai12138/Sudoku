@@ -1,2 +1,8 @@
 ﻿  d.cpp
-  Sudoku.vcxproj -> C:\Users\戴廷钧\source\repos\Sudoku\x64\Debug\Sudoku.exe
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(335,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(396,20): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(397,19): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+  Sudoku.vcxproj -> C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\x64\Debug\Sudoku.exe
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(25): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(25): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp(340): warning C26451: 算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。

@@ -2,12 +2,12 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\戴廷钧\source\repos\Sudoku\x64\Debug\Sudoku.exe</FullPath>
+      <FullPath>C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\x64\Debug\Sudoku.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\戴廷钧\source\repos\Sudoku\Sudoku\d.cpp</FullPath>
+      <FullPath>C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\Sudoku\d.cpp</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

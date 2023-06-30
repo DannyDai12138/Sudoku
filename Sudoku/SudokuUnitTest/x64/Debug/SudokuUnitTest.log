@@ -1,0 +1,4 @@
+﻿  SudokuUnitTest.cpp
+C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\sudoku.h(22,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\SudokuUnitTest\x64\Debug\SudokuUnitTest.lib 和对象 C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\SudokuUnitTest\x64\Debug\SudokuUnitTest.exp
+  SudokuUnitTest.vcxproj -> C:\Users\戴廷钧\Desktop\Sudoku\Sudoku\SudokuUnitTest\x64\Debug\SudokuUnitTest.dll

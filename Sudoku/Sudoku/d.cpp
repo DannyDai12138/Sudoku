@@ -248,7 +248,7 @@ int Testgamecount() {
 }
 
 int main(int argc, char* argv[]) {
-    int path = 0, diff = 1, lholes, rholes, flag = false, holes = 0;
+    int path = 0, diff = 1, lholes = 0, rholes = 0, flag = false, holes = 0;
     int64_t final_count = 0, game_count = 0;
     bool have_n = false;
     vector<vector<int>> board(N, vector<int>(N, EMPTY));

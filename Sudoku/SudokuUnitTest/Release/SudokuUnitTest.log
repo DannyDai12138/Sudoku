@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  sudoku.cpp
+C:\Users\gaosensen\Desktop\Sudoku\sudoku.h(22,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\gaosensen\Desktop\Sudoku\sudoku.cpp(343,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  SudokuUnitTest.cpp
+C:\Users\gaosensen\Desktop\Sudoku\sudoku.h(22,22): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\gaosensen\Desktop\Sudoku\SudokuUnitTest\Release\SudokuUnitTest.lib 和对象 C:\Users\gaosensen\Desktop\Sudoku\SudokuUnitTest\Release\SudokuUnitTest.exp
+  正在生成代码
+  349 of 361 functions (96.7%) were compiled, the rest were copied from previous compilation.
+    12 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  SudokuUnitTest.vcxproj -> C:\Users\gaosensen\Desktop\Sudoku\SudokuUnitTest\Release\SudokuUnitTest.dll
